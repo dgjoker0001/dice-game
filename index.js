@@ -22,7 +22,7 @@ else if (randomNumber1 < randomNumber2){
   document.querySelector(".container h1").innerHTML = "Player 2 Wins 🏆";
 }
 else{
-  document.querySelector(".container h1").innerHTML = "Draw !";
+  document.querySelector(".container h1").innerHTML = "🏆 Draw ! 🏆";
 }
 
 document.querySelector(".container p").classList.remove("invisible");
